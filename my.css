@@ -1,0 +1,51 @@
+body{
+    background-color: blue;
+}
+div{
+margin: 5px;
+align-content: flex-end;
+}
+.container{
+    border: 2px solid black;
+    height: 630px;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+align-content:center ;
+align-self: flex-end;
+flex-wrap: wrap-reverse;
+margin: 5px;
+/* align-items: end; */
+align-content: center;
+
+}
+#div1{
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+    align-self: flex-end;
+    background-image: url("box1.jpg"); 
+    background-size: contain;
+    background-size: cover;
+
+
+}
+#div2{
+    background-color: green;
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    align-items: end;
+    margin-bottom: 30px;
+    background-image: url("box2.jpg");
+    background-size: contain;
+}
+#div3{
+    background-color: aqua;
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    align-content: center;
+    background-image: url("box3.jpg");
+    background-size: contain;
+}
